@@ -15,8 +15,11 @@ fun main (){
     //endswith
     println(string2.endsWith(suffix = "too!"))
     //concatenate
-    println(string2.)
+    println(string1+" "+string2)
+    //substring
+    println(string1.substring(6,17))
+    //replace
+    println(string1.replace(oldValue = "this", newValue = "that"))
 
-    
 
 }
