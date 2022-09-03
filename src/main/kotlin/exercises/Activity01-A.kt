@@ -12,6 +12,7 @@ fun main(){
     var emailAddress1 : String = "luginlpp@gmail.com"
     var mobileNumber1 : Long = 639171234567
     var currentScore1 : Double = 99.99
+        //current score not automatically computed
 
     println("Student Number: $studentNumber")
     println("Full Name: $studentName1")
