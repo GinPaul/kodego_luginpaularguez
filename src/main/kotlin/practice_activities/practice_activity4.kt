@@ -7,7 +7,7 @@ fun main(){
     var itemName : String = readln()
 
     println("Enter price:")
-    var item1Regprice = readln().toInt()
+    var item1Regprice = readln().toDouble()
     println("Price of the $itemName is $item1Regprice")
 
     //discount computation
