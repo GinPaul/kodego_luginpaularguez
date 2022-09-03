@@ -17,6 +17,13 @@ fun main(){
     var discountFormula4: Double =(item1Regprice*0.15)
     var discountFormula5: Double =(item1Regprice*0.20)
 
+    //net price computation
+    var netPrice1: Double =(item1Regprice*0.0)
+    var netPrice2: Double =(item1Regprice*0.95)
+    var netPrice3: Double =(item1Regprice*0.90)
+    var netPrice4: Double =(item1Regprice*0.85)
+    var netPrice5: Double =(item1Regprice*0.80)
+
     if((item1Regprice >= 0)&&(item1Regprice <= 10000)){
         println("Discount is $discountFormula1")
     }else if((item1Regprice >=10001)&&(item1Regprice <=20000)){
@@ -31,7 +38,19 @@ fun main(){
         println("Invalid price!")
     }
 
-
+    if((item1Regprice >= 0)&&(item1Regprice <= 10000)){
+        println("Net Price is $netPrice1")
+    }else if((item1Regprice >=10001)&&(item1Regprice <=20000)){
+        println("Net Price is $netPrice2")
+    }else if ((item1Regprice >=20001)&&(item1Regprice <=50000)){
+        println("Net Price is $netPrice3")
+    }else if ((item1Regprice >=50001)&&(item1Regprice <=100000)){
+        println("Net Price is $netPrice4")
+    }else if ((item1Regprice > 100000)){
+        println("Net Price is $netPrice5")
+    }else{
+        println("Invalid price!")
+    }
 
 
 }
