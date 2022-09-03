@@ -1,7 +1,7 @@
 package exercises
 
 fun main(){
-
+    println()
     var studentNumber : Int = 2022001
     var studentName1 : String = "Lugin Paul Arguez"
     var age1 : Int = 37
@@ -31,7 +31,7 @@ fun main(){
     var age2 : Int = 40
     var sex2 : String = "Female"
     var address2 : String = "Quezon City"
-    var isEnrolled2 : Boolean = true
+    var isEnrolled2 : Boolean = false
     var section2 : Char = 'B'
     var emailAddress2 : String = "s.delacruz@gmail.com"
     var mobileNumber2 : Long = 639208889999
