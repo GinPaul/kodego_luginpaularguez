@@ -13,5 +13,17 @@ fun main(){
     }
 
     //will display five "@" five times
+    println()
+
+    var ctr3 : Int = 0
+    while(ctr3 < 3){  //1st loop to display 5x, while it is not 5 it will continue to loop
+        var ctr4 : Int = 1
+        while(ctr4 <1000){  //2nd loop to display 5 repetitions of the "@"
+            print("|")
+            ctr4++
+        }
+        println()
+        ctr3++
+    }
 
 }
