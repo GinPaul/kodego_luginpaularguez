@@ -9,5 +9,4 @@ fun main(){
     }while(ctr <=5) //condition
 
 
-
 }
