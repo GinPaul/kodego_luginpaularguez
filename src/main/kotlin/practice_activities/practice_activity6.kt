@@ -1,4 +1,4 @@
-package exercises
+package practice_activities
 
 fun main() {
 
@@ -16,8 +16,6 @@ fun palindromeChecker(input:String){
         println("$input is a palindrome.")
     }else{
         println("$input is not a palindrome.")}
-
-
 
 }
 
