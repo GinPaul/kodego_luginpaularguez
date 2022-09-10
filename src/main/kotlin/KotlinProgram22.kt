@@ -14,6 +14,18 @@ fun main(){
 
     displayMessage("Hello!")
 
+    displayNameAndAge("John", 18)
+
+    println()
+
+    println("Enter your name:")
+    var name: String = readln()
+
+    println("Enter your age:")
+    var age: Int = readln().toInt()
+
+    displayNameAndAge(name,age)
+
 }
 
 //function with no return parameter
@@ -34,4 +46,8 @@ fun displayMessage(msg: String){
     println("The message is \"$msg\".")
 }
 
-
+//no return with 2 parameter
+fun displayNameAndAge(name: String, age: Int){
+    println("Your name is $name.")
+    println("Your age is $age.")
+}
