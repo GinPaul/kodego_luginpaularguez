@@ -13,9 +13,9 @@ fun palindromeChecker(input:String){
     var reverse = string1.reversed()
 
     if (string1 == reverse){
-        println("$input is a palindrome.")
+        println("$input is a Palindrome.")
     }else{
-        println("$input is not a palindrome.")}
+        println("$input is not a Palindrome.")}
 
 }
 
