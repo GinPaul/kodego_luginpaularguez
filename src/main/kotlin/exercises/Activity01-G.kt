@@ -19,26 +19,29 @@ fun main() {
     } else {
         println("Bigger value: $integer2, Lower value: $integer1")
     }
+    println()
 
     //variable for the prime numbers
     var prime = mutableListOf<Int>()
 
     if(isPrimeNumber(integer1) == true){
-        //add to prime mutanle list
+        //add to prime mutable list
         prime.add(integer1)
     }else{
         println("$integer1 is not a prime number.")
 
     }
     println()
-
     if(isPrimeNumber(integer2) == true){
         //add to prime mutable list
         prime.add(integer2)
-        println(prime.sortedDescending())
+
     }else{
-        println()
-        println("$integer2 is not a prime number.")}
+        println("$integer2 is not a prime number.")
+    }
+
+    println("Prime numbers in ascending order:")
+    println(prime.sorted())
 
 }
 
