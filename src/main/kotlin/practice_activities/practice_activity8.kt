@@ -6,7 +6,6 @@ import kotlin.math.max
 fun main() {
 
     var numbers = mutableListOf<Int>()
-    var numbers2: Int = 0
 
     //for(i in 1..3){
     //println("Enter number $i")
@@ -15,7 +14,7 @@ fun main() {
     //}
     //println()
 
-    println(maxNumber(3, 6, 4))
+    println(maxNumber(4,5,6))
 
 
 }
