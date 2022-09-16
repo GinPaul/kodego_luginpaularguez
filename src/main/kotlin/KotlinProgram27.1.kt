@@ -26,7 +26,7 @@ class Person(var name: String, var age: Int){ //constructor -> primary construct
         println("A person eats")
     }
     fun displayAge(){
-        //var ahe: Int = 7
+        //var age: Int = 7
         println(age)
     }
     fun ageUp(){
