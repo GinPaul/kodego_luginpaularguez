@@ -1,14 +1,32 @@
 fun main(){
 
+    //empty class (serves as a placeholder for the moment because you expect at some point you will create a Person class
+    var p1 = EmptyPerson()
     val name: String = "Jack"
     var age: Int = 12
 
+    var john = Person1()
+    println(john.name)
+    println(john)  //this is reference variable?
+
+
 }
 
-class Empty {}
+//empty class
+class EmptyPerson {}
+
+class Person1 {
+    var name: String = "John"
+    init{
+        println("Hello $name")
+    }
+    fun walk(){
+        println("Walking...")
+    }
+}
+
 
 //nested class (a class within a class)
-
 class Outer {
 
     val name  = "Outer"
