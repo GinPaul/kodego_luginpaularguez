@@ -13,17 +13,18 @@ fun main(){
 }
 class SmartPhone(var load: Double, var batteryPercentage: Int) {
 
-    init {
-        println("Object Created!")
-        println("******************")
-        println()
-        println("Welcome to your phone!")
-        println()
-        println("Your initial load is Php$load and the battery is $batteryPercentage%.")
-        println()
-    }
+        init {
+            println("Object Created!")
+            println("******************")
+            println()
+            println("Welcome to your phone!")
+            println()
+            println("Your initial load is Php$load and the battery is $batteryPercentage%.")
+            println()
+        }
 
     //functions
+
     fun buyLoad(amountLoaded: Double) {
         if (amountLoaded > 0) {
             var newLoad = load + amountLoaded
@@ -61,6 +62,7 @@ class SmartPhone(var load: Double, var batteryPercentage: Int) {
 
     fun sendText(message: String) {
         var messagesSent = mutableListOf<String>()
+
         println("Please compose your message and press enter:")
         var yourMessage = readln()
         messagesSent.add(yourMessage)
@@ -85,77 +87,9 @@ class SmartPhone(var load: Double, var batteryPercentage: Int) {
         println("You have sent the following messages $messagesSent.")
         println("The total number of messages you sent is/are ${messagesSent.size}")
 
-    }
-//    var remainingLoad = newLoad - messagesSent.size
-//    println("Your remaining load balance is $newLoad ")
+
+       }
+
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        var ctr: String = ""
-//        while (ctr <= 100.toString()) {
-//            println("Compose your message and press enter ${ctr + 1}:")
-//            var input = readln()
-//            messagesSent.add(input)
-////            ctr++
-//            break
-
-
-
-//
-//        var answer: String = ""
-//        answer = readln()
-//        for(answer == "Y"){
-//            println("Compose your message")
-
-
-
-
-
-
-//USE READLN() HERE
-//    fun messageSent(charged: Int) {
-//        if (charged > 100) {
-//            var newCharge = batteryPercentage + charged
-//            println("Charging succeeded!")
-//            println("The current charge is $newCharge%.")
-//            println("**********")
-//            println()
-//        }else{
-//            println()
-//            println("WARNING: Charging overload!")
-//            println("Please unplug your phone.")
-//            println("**********")
-//            println()
-//        }
-//    }
-
-
-
-
-
-
-//    fun screenWrite (){
-//        println("Allows writing on the screen without opening the phone.")
-//    }
-//    fun band (){
-//        println("Browse faster with 5G.")
-//    }
-//    fun allDayBattery (){
-//        println("Longer battery life than can last a day with continued use.")
-//    }
-//    fun digitalZoom (){
-//        println("Zoom in on your object with 30x digital zoom.")
-//    }
