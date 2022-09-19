@@ -87,9 +87,9 @@ class SmartPhone(var load: Double, var batteryPercentage: Int) {
         println("You have sent the following messages $messagesSent.")
         println("The total number of messages you sent is/are ${messagesSent.size}")
 
-
        }
 
 
 }
+
 

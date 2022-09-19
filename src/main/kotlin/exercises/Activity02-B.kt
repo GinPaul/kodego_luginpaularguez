@@ -16,7 +16,7 @@ fun main() {
     println("Welcome to the Library.")
     println("********************")
 
-    //global variables
+    //g variables
     var returnedItems = mutableListOf<String>()
     var selectedItems = mutableListOf<String>()
     var borrowAnother: String = ""
@@ -34,10 +34,10 @@ fun main() {
             println("Available items in the Library are: $item")
             println()
             println("Please select one item to be borrowed:")
-            var selectedItem = readln()
+            var selectedItem = readln().uppercase()
             selectedItems.add(selectedItem)
             println("You have selected $selectedItem. Do you want to borrow another book? [Y or N]")
-            borrowAnother = readln()
+            borrowAnother = readln().uppercase()
 
             do {
                 //return here if the customer wants to borrow another one
@@ -46,52 +46,57 @@ fun main() {
                     println("Available books are $item:")
                     println()
                     println("Please select one item to be borrowed:")
-                    selectedItem = readln()
+                    selectedItem = readln().uppercase()
                     selectedItems.add(selectedItem)
                     println("You intend to borrow following items: $selectedItems.")
                     println("Do you want to borrow another one?. Please type Y for Yes or N for No.")
-                    var yesOrNo1 = readln()
+                    var yesOrNo1 = readln().uppercase()
+
                     if (yesOrNo1 == "Y") {
+                        println()
                     } else if (yesOrNo1 == "N") {
                         println()
                         println("You have borrowed the following items: $selectedItems")
                         println("Please bring the printed slip to the counter and wait for the items.")
                         println("Thank you for your transaction.")
                         break
-                    } else if (yesOrNo1 !== "Y" && yesOrNo1 !== "N")
+                    }
+                    else {
                         println("Invalid input. Choose only Y for Yes or N for No.")
+                    }
+
                 } else if (borrowAnother == "N") {
                     println("Thank you for your transaction.")
                     break
-                } else if (borrowAnother !== "Y" && borrowAnother !== "N") {
+                } else {
                     println("Invalid response. Please select either Y for Yes of N for No.")
                 }
-
             } while (borrowAnother !== "N")
 
             //for return of items
         } else if (transactionSelect == 2) {
             println()
             println("Please type the name of the item you would like to return:")
-            var itemForReturn = readln()
+            var itemForReturn = readln().uppercase()
             returnedItems.add(itemForReturn)
             println()
             println("Successfully entered $returnedItems to be returned!")
             do {
                 println("Do you want to return more items? Please select Y for Yes or N for No.")
-                var yesOrNo = readln()
+                var yesOrNo = readln().uppercase()
                 if (yesOrNo == "Y") {
                     println("Please type the name of the item you would like to return:")
-                    itemForReturn = readln()
+                    itemForReturn = readln().uppercase()
                     returnedItems.add(itemForReturn)
                 } else if (yesOrNo == "N") {
                     println()
                     println("You intend to return the following item/s $returnedItems.")
                     println()
                     println("Please bring the printed slip to the counter together with the items for return.")
+                    println()
                     println("Thank you and come again.")
                     break
-                } else if (yesOrNo !== "Y" && yesOrNo !== "N") {
+                } else {
                     println("Incorrect response. Please type either Y for Yes or N for No.")
                 }
             } while (yesOrNo !== "N")
@@ -100,8 +105,9 @@ fun main() {
         } else if (transactionSelect == 3) {
             println()
             println("The transaction is cancelled.")
+            println()
             println("Thank you and come again.")
-        } else if (transactionSelect !== 1 && transactionSelect !== 2 && transactionSelect !== 3) {
+        } else {
             println()
             println("Incorrect response. Please select 1, 2, or 3.")
         }
