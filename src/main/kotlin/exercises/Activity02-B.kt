@@ -106,6 +106,7 @@ fun main() {
             println("Incorrect response. Please select 1, 2, or 3.")
         }
     }while (transactionSelect !== 1 && transactionSelect !== 2 && transactionSelect !== 3)
+    println()
 }
 
 //var encyclopedia = mutableListOf<String>(
