@@ -33,3 +33,11 @@ fun main() {
     }
 
 }
+//try{
+//    file.open(/ path to file /)
+//    //do your code
+//}catch(e:Exception){
+//    //handle exception
+//}finally{
+//    file.close()
+//}
