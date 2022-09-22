@@ -12,6 +12,9 @@ fun main(){
 
 }
 class SmartPhone(var load: Double, var batteryPercentage: Int) {
+    var amountLoaded: Double = 0.0
+    var messagesSent = mutableListOf<String>()
+    var currentLoad = (load + amountLoaded) - messagesSent.size.toDouble()
 
         init {
             println("Object Created!")
@@ -61,8 +64,10 @@ class SmartPhone(var load: Double, var batteryPercentage: Int) {
     }
 
     fun sendText(message: String) {
-        var messagesSent = mutableListOf<String>()
-
+//        var messagesSent = mutableListOf<String>()
+        println("**********")
+        println("Messaging Feature:")
+        println("**********")
         println("Please compose your message and press enter:")
         var yourMessage = readln()
         messagesSent.add(yourMessage)
@@ -86,7 +91,7 @@ class SmartPhone(var load: Double, var batteryPercentage: Int) {
         } while (yesOrNo !== "N")
         println("You have sent the following messages $messagesSent.")
         println("The total number of messages you sent is/are ${messagesSent.size}")
-
+        println("The your current load is ${currentLoad}.")
        }
 
 
