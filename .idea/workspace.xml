@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6a56525-37ba-4aad-ae81-c83a27f91879" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram27.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram27v1.kt" afterDir="false" />
+    <list default="true" id="a6a56525-37ba-4aad-ae81-c83a27f91879" name="Changes" comment="&quot;nth commit&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/oop/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/oop/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/oop/Student(inheritance).kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity11.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/practice_activities/DiscountComputationTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kodego_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kodego_project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/practice_file.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/practice_file.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/practice_activities/KotlinProgram25.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram25.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity8.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/practice_activities/PracticeActivity11.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +50,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Lugin Paul/Documents/kodego_project/src/main/kotlin/practice_activities&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
@@ -55,9 +67,102 @@
       <recent name="C:\Users\Lugin Paul\Documents\kodego_project\src\main\kotlin" />
       <recent name="C:\Users\Lugin Paul\Documents\kodego_project\src\test\kotlin" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="practice_activities" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DiscountComputationTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.DiscountComputationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountComputationTest (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.DiscountComputationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountComputationTest (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.DiscountComputationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountComputationTest (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.DiscountComputationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscountComputationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kodego_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice_activities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="practice_activities" />
+      <option name="MAIN_CLASS_NAME" value="practice_activities.DiscountComputationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DiscountComputationTest (1)" />
+        <item itemvalue="JUnit.DiscountComputationTest" />
+        <item itemvalue="JUnit.DiscountComputationTest (4)" />
+        <item itemvalue="JUnit.DiscountComputationTest (5)" />
+        <item itemvalue="JUnit.DiscountComputationTest (3)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -68,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662031573748</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;nth commit&quot;">
+      <created>1663159976905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663159976905</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +194,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;nth commit&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;nth commit&quot;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -88,11 +205,54 @@
           <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/KotlinProgram30.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/KotlinProgram30.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity11.kt</url>
+          <line>50</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity10.kt</url>
+          <line>65</line>
+          <properties class="practice_activities.SmartPhone" method="sendText">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity11.kt</url>
+          <line>39</line>
+          <properties class="practice_activities.DiscountComputation" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity11.kt</url>
+          <line>48</line>
+          <properties class="practice_activities.DiscountComputation" method="discounting">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kodego_project$Practice_activity4Kt.ic" NAME="Practice_activity4Kt Coverage Results" MODIFIED="1662195152632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/kodego_project$FirstKotlinProgramKt.ic" NAME="FirstKotlinProgramKt Coverage Results" MODIFIED="1662120761666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/kodego_project$Activity02_BKt.ic" NAME="Activity02_BKt Coverage Results" MODIFIED="1663583206541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
