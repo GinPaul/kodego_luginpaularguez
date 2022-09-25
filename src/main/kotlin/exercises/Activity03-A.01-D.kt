@@ -21,9 +21,11 @@ fun main() {
 
     //amount entry and operation loop
     do {
-        println("Do you want to add an amount?")
-        println("Please enter Y for Yes and N for No:")
+        println()
+        print("Do you want to add an amount?")
+        print("Please enter Y for Yes and N for No:")
         inputText = readln().uppercase()
+        println()
 
         //try catch here
         if (inputText == "Y") {
@@ -51,7 +53,9 @@ fun main() {
             println("The resulting amount is $finalAmount")
             break
         } else
+            println()
             println("Invalid input. Please try again.")
+        println()
 
     } while (inputText !== "N")
 

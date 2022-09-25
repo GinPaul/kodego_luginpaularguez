@@ -3,31 +3,59 @@ private val logger = KotlinLogging.logger {}
 
 fun main() {
 
-    println("Please enter an amount:")
-    var num1: Int = readln().toInt()
-    var condition: Boolean = true
+    var num1: Int = 0
 
+    //try catch for invalid input
+    try {
+        println("Please enter an amount:")
+        num1 = readln().toInt()
+    } catch (e: NumberFormatException) {
+        println(e)
+        println("Invalid input. Try again.")
+        println()
+    }
 
-    while (condition) {
-        println("Do you want to add another amount?")
-        var input2: String = readln().uppercase()
+    var inputText: String = ""
+    var num2: Int = 0
+    var total: Int = num1 + num2
 
-        if (input2 == "YES") {
-            println("Enter the amount:")
-            var input: Int = readln().toInt()
-            num1 = num1 + input
+    //amount entry and operation loop
+    do {
+        println("Do you want to add an amount?")
+        println("Please enter Y for Yes and N for No:")
+        inputText = readln().uppercase()
 
-            println("The total amount you entered is $num1")
-        } else if (input2 == "NO") {
-            println("The total amount you entered is $num1")
+        //try catch here
+        if (inputText == "Y") {
+            do {
+                try {
+                    println("Enter the amount:")
+                    num2 = readln().toInt()
+                    total += num2
+                } catch (e: NumberFormatException) {
+                    println(e)
+                    println("Invalid input. Try again.")
+                    println()
+                }
+            } while (false)
+            println("The amount you entered is $num2")
+            println("The total amount you entered is $total.")
+
+        } else if (inputText == "N") {
+            println("The total amount you entered is $total")
 
             println("Divide the total amount by how many?")
             var divisor: Int = readln().toInt()
 
-            var totalAmount: Int = num1 / divisor
-            println("The resulting amount is $totalAmount")
+            var finalAmount: Int = total / divisor
+            println("The resulting amount is $finalAmount")
+            break
+        } else
+            println("Invalid input. Please try again.")
 
-            condition = false
-        }
-    }
+    } while (inputText !== "N")
+
+    //end
+    println()
+    println("Thank you for using the service.")
 }
