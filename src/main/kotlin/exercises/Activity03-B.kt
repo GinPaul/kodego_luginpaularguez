@@ -4,24 +4,29 @@ private val logger = KotlinLogging.logger {}
 
 var num1: Int = 0
 var num2: Int = 0
-var total = num1 + num2
+var total: Int = 0
+var total2: Int = 0
+var total3: Int = 0
 var inputText: String = ""
 var divisor: Int = 1
 var finalAmount: Int = total / divisor
 
 fun main() {
 
-    var finalAnswer = OperationSumAndDivision(0)
+    var finalAnswer = OperationSumAndDivision()
 
     //step 1 with try catch for invalid input
-    try {
-        println("Please enter an amount:")
-        num1 = readln().toInt()
-    } catch (e: NumberFormatException) {
-        println(e)
-        println("Invalid input. Try again.")
-        println()
-    }
+    do{
+        try {
+            println("Please enter an amount:")
+            num1 = readln().toInt()
+            break
+        } catch (e: NumberFormatException) {
+            println(e)
+            println("Invalid input. Try again.")
+            println()
+        }
+    }while(true)
 
     //step 2: amount entry and operation loop
     do {
@@ -63,7 +68,7 @@ fun main() {
     println("Thank you for using the service.")
 
 }
-class OperationSumAndDivision (amount: Int) {
+class OperationSumAndDivision() {
     init {
         println("Object created!")
         println("Welcome.")
@@ -71,10 +76,12 @@ class OperationSumAndDivision (amount: Int) {
     }
 
     fun addition(): Int {
-        num1 += num2
-        println("The total amount you entered is $num1")
+        total += num1
+        total2 += num2
+        total3 = total + total2
+        println("The total amount you entered is $total3")
         println()
-        return num1
+        return total3
     }
 
     fun division(): Int {

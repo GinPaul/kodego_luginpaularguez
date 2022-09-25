@@ -3,7 +3,7 @@ package exercises
 fun main(){
     //Noodles
     var noodle1 : String = "N Lucky Me Pancit Canton Chilimansi"
-    var noodle2 : String = "N Maggi Chincken Istant Noodles"
+    var noodle2 : String = "N Maggi Chicken Instant Noodles"
     var noodle3 : String = "N Lucky Me Beef Noodles"
 
     //canned goods
@@ -11,13 +11,13 @@ fun main(){
     var canned2 : String = "C Ligo Sardines"
     var canned3 : String = "C Reno Liver Spread"
 
-    println(noodle1[0])
+    println("Noodles:")
     println("$noodle1")
     println("$noodle2")
     println("$noodle3")
     println()
 
-    println(canned1[0])
+    println("Canned:")
     println("$canned1")
     println("$canned2")
     println("$canned3")
