@@ -1,17 +1,38 @@
 package exercises
 
+//global variables declaration
+var optionSelection: Int = 0
+var categorySelect: Int = 0
+var categorySelectForInvUpdate: Int = 0
+var itemNameEntry: String = ""
+var itemQtyEntry: Int = 0
+var itemNameToUpdateNoodles: String =""
+var itemQuantityUpdateNoodles: Int = 0
+var noodles = mutableMapOf("Lucky Me Beef" to 3, "Lucky Me Pancit Canton" to 5, "Nissin Cup Noodles" to 10)
+var noodlesInventory = mutableListOf(3,5,9)
+var freshVegetables = mutableListOf("Alugbati", "Okra", "Squash")
+var freshVegInventory = mutableListOf(4,5,6)
+var nonFood = mutableListOf("Surf Sunfresh Powder", "Zonrox Bleach Original", "Downy Antibac")
+var nonFoodInventory = mutableListOf(10,20,50)
+
 fun main(){
 
-    var noodles = mapOf("Lucky Me Beef" to 10, "Lucky Me Pancit Canton" to 5, "Nissin Cup Noodles" to 7)
-    var freshVegetables = mapOf("Alugbati" to 5, "Okra" to 2, "Squash" to 3)
-    var nonFood = mapOf("Surf Sunfresh Powder" to 1, "Zonrox Bleach Original" to 8, "Downy Antibac" to 6)
-    var optionSelection: Int = 0
+
+//    var noodles = mutableMapOf("Lucky Me Beef" to 3, "Lucky Me Pancit Canton" to 5, "Nissin Cup Noodles" to 10)
+//    var noodlesInventory = mutableListOf(3,5,9)
+//    var freshVegetables = mutableListOf("Alugbati", "Okra", "Squash")
+//    var freshVegInventory = mutableListOf(4,5,6)
+//    var nonFood = mutableListOf("Surf Sunfresh Powder", "Zonrox Bleach Original", "Downy Antibac")
+//    var nonFoodInventory = mutableListOf(10,20,50)
+
+
 
     println("Welcome to the grocery store!")
     println()
     println("Choose option:")
     println("[1] Show list of available items")
-    println("[2] Update inventory")
+    println("[2] Add items to inventory")
+    println("[3] Update the inventory count")
     println("[3] Exit")
 
     println("Please select an option:")
@@ -27,10 +48,51 @@ fun main(){
         println("Non-food items:")
         println("$nonFood")
     }else if (optionSelection == 2){
-        println("Please choose which category you want to update the inventory:")
+        println("Please choose which category you want to add inventory:")
+        println("[1] Noodles")
+        println("[2] Fresh Vegetables")
+        println("[3] Non Food Items")
+        categorySelect = readln().toInt()
+        
+        if (categorySelect == 1){
+            println("Running inventory:")
+            println(noodles)
+            println("Please type the name of the item that you want to add to inventory:")
+            itemNameEntry = readln()
+            println("Please enter a number in pieces:")
+            itemQtyEntry = readln().toInt()
+            noodles[itemNameEntry] = itemQtyEntry
+
+
+            println("The item $itemNameEntry with quantity $itemQtyEntry has been added to the inventory.")
+            println("The updated inventory of is $noodles.")
+            
+        }else if (categorySelect == 2){
+            println(freshVegetables)
+        }else if (categorySelect == 3){
+            println(nonFood)
+        }else
+            println("Invalid entry. Try again.")
+        
+    }else if(optionSelection == 3){
+        println()
+        println("Please choose which category you want to add inventory:")
+        println("[1] Noodles")
+        println("[2] Fresh Vegetables")
+        println("[3] Non Food Items")
+        categorySelectForInvUpdate = readln().toInt()
+
+        if (categorySelectForInvUpdate == 1){
+            println("Please type the name of the item to update:")
+            itemNameToUpdateNoodles = readln()
+            println("Please input the updated quantity:")
+            itemQuantityUpdateNoodles = readln().toInt()
+            noodles[itemNameToUpdateNoodles] = itemQuantityUpdateNoodles
+
+            println("The item $itemNameToUpdateNoodles with quantity $itemQuantityUpdateNoodles has been added to the inventory.")
+            println("The updated inventory of is $noodles.")
+
+        }
     }
-
-
-
 
 }
