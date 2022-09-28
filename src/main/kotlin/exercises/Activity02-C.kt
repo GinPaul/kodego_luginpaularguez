@@ -1,19 +1,19 @@
 package exercises
 
-//global variables declaration
-var optionSelection: Int = 0
-var categorySelect: Int = 0
-var categorySelectForInvUpdate: Int = 0
-var itemNameEntry: String = ""
-var itemQtyEntry: Int = 0
-var itemNameToUpdateNoodles: String =""
-var itemQuantityUpdateNoodles: Int = 0
-var noodles = mutableMapOf("Lucky Me Beef" to 3, "Lucky Me Pancit Canton" to 5, "Nissin Cup Noodles" to 10)
-var noodlesInventory = mutableListOf(3,5,9)
-var freshVegetables = mutableListOf("Alugbati", "Okra", "Squash")
-var freshVegInventory = mutableListOf(4,5,6)
-var nonFood = mutableListOf("Surf Sunfresh Powder", "Zonrox Bleach Original", "Downy Antibac")
-var nonFoodInventory = mutableListOf(10,20,50)
+//global variables declaration >> already declared in Activity01-I
+//var optionSelection: Int = 0
+//var categorySelect: Int = 0
+//var categorySelectForInvUpdate: Int = 0
+//var itemNameEntry: String = ""
+//var itemQtyEntry: Int = 0
+//var itemNameToUpdateNoodles: String =""
+//var itemQuantityUpdateNoodles: Int = 0
+//var noodles = mutableMapOf("Lucky Me Beef" to 3, "Lucky Me Pancit Canton" to 5, "Nissin Cup Noodles" to 10)
+//var noodlesInventory = mutableListOf(3,5,9)
+//var freshVegetables = mutableListOf("Alugbati", "Okra", "Squash")
+//var freshVegInventory = mutableListOf(4,5,6)
+//var nonFood = mutableListOf("Surf Sunfresh Powder", "Zonrox Bleach Original", "Downy Antibac")
+//var nonFoodInventory = mutableListOf(10,20,50)
 
 fun main() {
 
@@ -25,7 +25,8 @@ fun main() {
     println("[3] Update the inventory count")
     println("[4] Exit")
     println()
-    println("NOTE: PLEASE FOCUS ON ADDING ITEMS TO THE INVENTORY FOR THI ACTIVITY.")
+    println("NOTE: CODE INCOMPLETE!")
+    println("PLEASE FOCUS ON ADDING ITEMS TO THE INVENTORY FOR THIS ACTIVITY.")
     println("PLEASE CHOOSE ONLY [2] Add items to inventory")
     println()
 

@@ -11,8 +11,20 @@ open class Person (name: String, age: Int) { //put "open" so that it can be inhe
         println("name is $name, age is $age")
     }
 
+    //1.) overriding
     open fun displayName() {
         println("Name is $name")
+    }
+    //2.) overloading - same name, different parameters, same class
+    fun displayName(name: String){
+        println("Name is $name")
+    }
+    fun  displayName(numberOfTimes: Int){
+        var ctr = numberOfTimes -1
+        while(ctr >= 0){
+            println("Name is $name")
+            ctr--
+        }
     }
     open fun displayAge(){
         println("Age is $age")

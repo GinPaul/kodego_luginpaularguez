@@ -7,4 +7,5 @@ open class Manager: Employee(){
         super.computeBonus()
         println("Bonus for Manager is $bonus.")
     }
+    //overriding is polymorphism
 }

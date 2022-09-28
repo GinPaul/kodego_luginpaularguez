@@ -1,11 +1,18 @@
 package com.oop
 
 fun main(){
-    var manager = Manager()
-    manager.computeBonus()
-    println()
-    var staff = Staff()
-    staff.computeBonus()
+    var personObject = Person("Peter", 18)
+    personObject.displayName()
+    personObject.displayName("Joe")
+    personObject.displayName(8)
+
+
+
+//    var manager = Manager()
+//    manager.computeBonus()
+//    println()
+//    var staff = Staff()
+//    staff.computeBonus()
 
 }
 
