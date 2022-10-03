@@ -1,4 +1,4 @@
-package exercises.Activity04.A
+package exercises.Activity04A
 
 open class LibraryItemList() {
 

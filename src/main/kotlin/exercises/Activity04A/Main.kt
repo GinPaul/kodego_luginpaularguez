@@ -1,7 +1,7 @@
 package exercises
 
-import exercises.Activity04.A.LibraryItemList
-import exercises.Activity04.A.Transaction
+import exercises.Activity04A.LibraryItemList
+import exercises.Activity04A.Transaction
 
 fun main() {
 
@@ -54,7 +54,8 @@ fun main() {
                         }
 
                     } else if (borrowAnother == "N") {
-                        println("Thank you for your transaction.")
+//                        println("Thank you for your transaction.")
+                        transact.borrowed()
                         break
                     } else {
                         println("Invalid response. Please select either Y for Yes of N for No.")

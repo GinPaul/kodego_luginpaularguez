@@ -2,27 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a56525-37ba-4aad-ae81-c83a27f91879" name="Changes" comment="&quot;nth commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/operator/overloading/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/solidprinciple/s/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Books.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Borrowing.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/LibraryItems.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Magazines.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Newspaper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Returning.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Transaction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram22(Functions).kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram22(Functions).kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram24(Functions.VarArgs.Multitple.Arrays).kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram24(Functions.VarArgs.Multitple.Arrays).kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/oop3/Dog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/oop3/Dog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity01-D.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity01-D.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity02-E.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity02-E.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity03-A.01-D.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity03-A.01-D.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity03-B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity03-B.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity10.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practice_activities/practice_activity11.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/exercises/OperationSumAndDivisionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercises/OperationSumAndDivisionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/oop3/Animal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/oop3/Animal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Borrowing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Borrowing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/LibraryItems.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/LibraryItems.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Newspaper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Newspaper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Returning.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Returning.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04/A/Transaction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Transaction.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

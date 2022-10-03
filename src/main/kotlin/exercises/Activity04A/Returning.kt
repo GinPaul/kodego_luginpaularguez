@@ -1,4 +1,4 @@
-package exercises.Activity04.A
+package exercises.Activity04A
 
 interface Returning {
 
@@ -6,7 +6,7 @@ interface Returning {
         println("Please bring the printed slip to the counter together with the items for return.")
         println()
         println("Thank you and come again.")
-        println("--- This is from Returning interface---")
+        println("--- This is from the Returning interface---")
 
     }
 }
