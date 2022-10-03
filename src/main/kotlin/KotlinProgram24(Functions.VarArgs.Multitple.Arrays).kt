@@ -10,7 +10,7 @@ fun main(){
         numbers.add(input)
     }
 
-    //println(total2(*numbers))
+    //println(exercises.getTotal2(*numbers))
 
 
     println(total2(2,4,5,6,7,8,9,10,22))
@@ -21,7 +21,7 @@ fun main(){
 }
 
 fun total(num1: Int, num2: Int, num3: Int, num4:Int): Int{
-    println("This is the total function.")
+    println("This is the exercises.getTotal function.")
     return num1 + num2 + num3 + num4
 
 }

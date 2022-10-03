@@ -1,7 +1,7 @@
 package com.oop3
 
 class Dog: Animal,Pet,Mammal() {
-    //interfaces (Animal and Pet) doesn't require "()". But enherited class Mammal needs "()"
+    //interfaces (Animal and Pet) doesn't require "()". But inherited class Mammal needs "()"
 
     override fun walk(){
         println("Dog walks")

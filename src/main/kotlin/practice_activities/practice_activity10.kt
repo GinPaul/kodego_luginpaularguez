@@ -90,7 +90,7 @@ class SmartPhone(var load: Double, var batteryPercentage: Int) {
 
         } while (yesOrNo !== "N")
         println("You have sent the following messages $messagesSent.")
-        println("The total number of messages you sent is/are ${messagesSent.size}")
+        println("The exercises.getTotal number of messages you sent is/are ${messagesSent.size}")
         println("The your current load is ${currentLoad}.")
        }
 
