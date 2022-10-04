@@ -1,7 +1,5 @@
 package exercises.Activity04A
 
-import exercises.main
-
 //abstraction, inheritance
 class Transaction: LibraryItemList(), Borrowing, Returning {
 ////

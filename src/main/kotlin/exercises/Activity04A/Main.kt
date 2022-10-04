@@ -1,7 +1,4 @@
-package exercises
-
-import exercises.Activity04A.LibraryItemList
-import exercises.Activity04A.Transaction
+package exercises.Activity04A
 
 fun main() {
 

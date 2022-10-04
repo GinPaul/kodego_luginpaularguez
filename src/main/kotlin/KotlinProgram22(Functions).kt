@@ -30,7 +30,7 @@ fun main(){
 
 //function with no return parameter
 // "fun" is a way of saying that we are declaring a function; "displayName" is a sample of the function
-//all functions only run in the "exercises.main"
+//all functions only run in the "exercises.Activity04A.main"
 
 //fun displayName(): Unit {
 
