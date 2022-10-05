@@ -2,27 +2,27 @@ package com.caseStudy
 
 fun main(){
 
-    var teacher = Teacher()
-    println()
+    var person = Person()
+    var schedule = Schedule()
 
+
+    var teacher = Teacher()
+    teacher.personClass()
     teacher.fullTimeTeaching()
-    println()
     teacher.partTimeTeaching()
-    println()
 
     var student = Student()
-    println()
     student.personClass()
-    println()
 
     var teacherSchedule = TeacherSched()
-    println()
+    teacherSchedule.scheduleClass()
     teacherSchedule.fullTimeTeacherSched()
-    println()
     teacherSchedule.partTimeTeacherSched()
 
-//    var studentSchedule =
-    //hindi pa gawa ang StudentSched subclass and interfaces
+    var studentSchedule = StudentSched()
+    studentSchedule.scheduleClass()
+    studentSchedule.firstYear1stSem2022StudentSched()
+    studentSchedule.firstYear2ndSem2022StudentSched()
 
 
 }

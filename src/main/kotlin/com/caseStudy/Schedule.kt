@@ -5,7 +5,7 @@ package com.caseStudy
 open class Schedule {
     init{
         println("This is from the Schedule superclass.")
-        println("Person is any human in the school.")
+        println("Persons are going to follow their Schedules in the school.")
     }
 
     open fun scheduleClass(){

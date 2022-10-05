@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a56525-37ba-4aad-ae81-c83a27f91879" name="Changes" comment="&quot;nth commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Schedule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Stud1stYr1stSem2022.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Stud1stYr2ndSem2022.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Student.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/StudentSched.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Teacher.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/TeacherFullTime.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/TeacherPartTime.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/TeacherSched.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/TeacherSchedFullTime.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/TeacherSchedPartTime.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram22(Functions).kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram22(Functions).kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Transaction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercises/Activity04A/Transaction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Schedule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Schedule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Stud1stYr1stSem2022.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Stud1stYr1stSem2022.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Stud1stYr2ndSem2022.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Stud1stYr2ndSem2022.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/StudentSched.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/StudentSched.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/TeacherSched.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/TeacherSched.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

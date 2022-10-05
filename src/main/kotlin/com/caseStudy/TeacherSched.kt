@@ -6,7 +6,7 @@ open class TeacherSched: Schedule(), TeacherSchedFullTime, TeacherSchedPartTime 
 
     override fun scheduleClass(){
         println("This is from the TeacherSched subclass.")
-        println("This isto override the function in the Schedule superclass.")
+        println("This is to override the function in the Schedule superclass.")
     }
 
     override fun fullTimeTeacherSched() {
