@@ -2,17 +2,17 @@ package com.caseStudy
 
 //this is a subclass of Person
 
-open class Teacher: Person(), TeacherFullTime, TeacherPartTime {
+open class Teacher: Person(){ //, TeacherFullTime, TeacherPartTime { << separate these two iit should be class Teacher: TeacherFullTime(), etc
 
     override fun personClass() {
         println("This is to override the function in the Person superclass.")
     }
-
-    override fun fullTimeTeaching() {
-        println("This is to override the function in TeacherFullTime interface.")
-    }
-
-    override fun partTimeTeaching() {
-        println("This is to override the function in TeacherPartTime interface.")
-    }
+//
+//    override fun fullTimeTeaching() {
+//        println("This is to override the function in TeacherFullTime interface.")
+//    }
+//
+//    override fun partTimeTeaching() {
+//        println("This is to override the function in TeacherPartTime interface.")
+//    }
 }

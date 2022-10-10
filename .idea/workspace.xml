@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a56525-37ba-4aad-ae81-c83a27f91879" name="Changes" comment="&quot;nth commit&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/StudentF2F.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/StudentOnline.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Student.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Schedule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/caseStudy/Schedule.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
